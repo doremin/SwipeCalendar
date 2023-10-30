@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D125832ADC57CC000D67BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125822ADC57CC000D67BC /* AppDelegate.swift */; };
+		17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125842ADC57CC000D67BC /* SceneDelegate.swift */; };
+		17D1258C2ADC57CD000D67BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D1258B2ADC57CD000D67BC /* Assets.xcassets */; };
+		17D1258F2ADC57CD000D67BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D1258D2ADC57CD000D67BC /* LaunchScreen.storyboard */; };
+		17D1259A2ADC57CD000D67BC /* SwipeCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */; };
+		17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B22ADC5824000D67BC /* SampleViewController.swift */; };
+		17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */; };
+		17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B62ADC5CA9000D67BC /* SWCalendar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D125962ADC57CD000D67BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D125772ADC57CC000D67BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D1257E2ADC57CC000D67BC;
+			remoteInfo = SwipeCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D1257F2ADC57CC000D67BC /* SwipeCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D125822ADC57CC000D67BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17D125842ADC57CC000D67BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17D1258B2ADC57CD000D67BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D1258E2ADC57CD000D67BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17D125902ADC57CD000D67BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D125952ADC57CD000D67BC /* SwipeCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCalendarTests.swift; sourceTree = "<group>"; };
+		17D125B22ADC5824000D67BC /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarView.swift; sourceTree = "<group>"; };
+		17D125B62ADC5CA9000D67BC /* SWCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D1257C2ADC57CC000D67BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D125922ADC57CD000D67BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D125762ADC57CC000D67BC = {
+			isa = PBXGroup;
+			children = (
+				17D125812ADC57CC000D67BC /* SwipeCalendar */,
+				17D125982ADC57CD000D67BC /* SwipeCalendarTests */,
+				17D125802ADC57CC000D67BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D125802ADC57CC000D67BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D1257F2ADC57CC000D67BC /* SwipeCalendar.app */,
+				17D125952ADC57CD000D67BC /* SwipeCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D125812ADC57CC000D67BC /* SwipeCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				17D125822ADC57CC000D67BC /* AppDelegate.swift */,
+				17D125842ADC57CC000D67BC /* SceneDelegate.swift */,
+				17D1258B2ADC57CD000D67BC /* Assets.xcassets */,
+				17D1258D2ADC57CD000D67BC /* LaunchScreen.storyboard */,
+				17D125902ADC57CD000D67BC /* Info.plist */,
+				17D125B22ADC5824000D67BC /* SampleViewController.swift */,
+				17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */,
+				17D125B62ADC5CA9000D67BC /* SWCalendar.swift */,
+			);
+			path = SwipeCalendar;
+			sourceTree = "<group>";
+		};
+		17D125982ADC57CD000D67BC /* SwipeCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */,
+			);
+			path = SwipeCalendarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D1257E2ADC57CC000D67BC /* SwipeCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D125A92ADC57CD000D67BC /* Build configuration list for PBXNativeTarget "SwipeCalendar" */;
+			buildPhases = (
+				17D1257B2ADC57CC000D67BC /* Sources */,
+				17D1257C2ADC57CC000D67BC /* Frameworks */,
+				17D1257D2ADC57CC000D67BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCalendar;
+			productName = SwipeCalendar;
+			productReference = 17D1257F2ADC57CC000D67BC /* SwipeCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D125942ADC57CD000D67BC /* SwipeCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D125AC2ADC57CD000D67BC /* Build configuration list for PBXNativeTarget "SwipeCalendarTests" */;
+			buildPhases = (
+				17D125912ADC57CD000D67BC /* Sources */,
+				17D125922ADC57CD000D67BC /* Frameworks */,
+				17D125932ADC57CD000D67BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D125972ADC57CD000D67BC /* PBXTargetDependency */,
+			);
+			name = SwipeCalendarTests;
+			productName = SwipeCalendarTests;
+			productReference = 17D125952ADC57CD000D67BC /* SwipeCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D125772ADC57CC000D67BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17D1257E2ADC57CC000D67BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					17D125942ADC57CD000D67BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 17D1257E2ADC57CC000D67BC;
+					};
+				};
+			};
+			buildConfigurationList = 17D1257A2ADC57CC000D67BC /* Build configuration list for PBXProject "SwipeCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D125762ADC57CC000D67BC;
+			productRefGroup = 17D125802ADC57CC000D67BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D1257E2ADC57CC000D67BC /* SwipeCalendar */,
+				17D125942ADC57CD000D67BC /* SwipeCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D1257D2ADC57CC000D67BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D1258F2ADC57CD000D67BC /* LaunchScreen.storyboard in Resources */,
+				17D1258C2ADC57CD000D67BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D125932ADC57CD000D67BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D1257B2ADC57CC000D67BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D125832ADC57CC000D67BC /* AppDelegate.swift in Sources */,
+				17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */,
+				17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */,
+				17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */,
+				17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D125912ADC57CD000D67BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D1259A2ADC57CD000D67BC /* SwipeCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D125972ADC57CD000D67BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D1257E2ADC57CC000D67BC /* SwipeCalendar */;
+			targetProxy = 17D125962ADC57CD000D67BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17D1258D2ADC57CD000D67BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D1258E2ADC57CD000D67BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D125A72ADC57CD000D67BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17D125A82ADC57CD000D67BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D125AA2ADC57CD000D67BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G37F7HJP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doremin.SwipeCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17D125AB2ADC57CD000D67BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G37F7HJP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doremin.SwipeCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17D125AD2ADC57CD000D67BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G37F7HJP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doremin.SwipeCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwipeCalendar";
+			};
+			name = Debug;
+		};
+		17D125AE2ADC57CD000D67BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G37F7HJP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doremin.SwipeCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwipeCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D1257A2ADC57CC000D67BC /* Build configuration list for PBXProject "SwipeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D125A72ADC57CD000D67BC /* Debug */,
+				17D125A82ADC57CD000D67BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D125A92ADC57CD000D67BC /* Build configuration list for PBXNativeTarget "SwipeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D125AA2ADC57CD000D67BC /* Debug */,
+				17D125AB2ADC57CD000D67BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D125AC2ADC57CD000D67BC /* Build configuration list for PBXNativeTarget "SwipeCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D125AD2ADC57CD000D67BC /* Debug */,
+				17D125AE2ADC57CD000D67BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D125772ADC57CC000D67BC /* Project object */;
+}
