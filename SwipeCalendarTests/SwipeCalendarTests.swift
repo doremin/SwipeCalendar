@@ -9,13 +9,31 @@ import XCTest
 @testable import SwipeCalendar
 
 final class SwipeCalendarTests: XCTestCase {
+    
+    var calendar: SWCalendar!
+    var timezone: TimeZone!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        // given
+        calendar = SWCalendar()
     }
+    
+    func testCalendar_whenGenerateDaysOfWeek_generateWith231031() {
+        // when
+        let targetDate = try! Date("2023-10-31T00:00:00+09:00", strategy: .iso8601)
+        let result = calendar.generateDaysOfWeek(date: targetDate)
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // then
+        let expectedResult = [
+            SWDay(year: 2023, month: 10, day: 29),
+            SWDay(year: 2023, month: 10, day: 30),
+            SWDay(year: 2023, month: 10, day: 31),
+            SWDay(year: 2023, month: 11, day: 1),
+            SWDay(year: 2023, month: 11, day: 2),
+            SWDay(year: 2023, month: 11, day: 3),
+            SWDay(year: 2023, month: 11, day: 4)
+        ]
+        
+        XCTAssertEqual(result, expectedResult)
     }
-
 }

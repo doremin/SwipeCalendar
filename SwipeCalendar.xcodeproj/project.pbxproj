@@ -15,6 +15,7 @@
 		17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B22ADC5824000D67BC /* SampleViewController.swift */; };
 		17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */; };
 		17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B62ADC5CA9000D67BC /* SWCalendar.swift */; };
+		17D125B92AF02664000D67BC /* SWDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B82AF02664000D67BC /* SWDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		17D125B22ADC5824000D67BC /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarView.swift; sourceTree = "<group>"; };
 		17D125B62ADC5CA9000D67BC /* SWCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendar.swift; sourceTree = "<group>"; };
+		17D125B82AF02664000D67BC /* SWDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				17D125B22ADC5824000D67BC /* SampleViewController.swift */,
 				17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */,
 				17D125B62ADC5CA9000D67BC /* SWCalendar.swift */,
+				17D125B82AF02664000D67BC /* SWDay.swift */,
 			);
 			path = SwipeCalendar;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */,
 				17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */,
 				17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */,
+				17D125B92AF02664000D67BC /* SWDay.swift in Sources */,
 				17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
