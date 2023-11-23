@@ -1,6 +1,6 @@
 //
-//  SwipeCalendarTests.swift
-//  SwipeCalendarTests
+//  SWCalendarTests.swift
+//  SWCalendarTests
 //
 //  Created by doremin on 2023/10/16.
 //
@@ -8,7 +8,7 @@
 import XCTest
 @testable import SwipeCalendar
 
-final class SwipeCalendarTests: XCTestCase {
+final class SWCalendarTests: XCTestCase {
     
     var calendar: SWCalendar!
     var timezone: TimeZone!

@@ -11,7 +11,7 @@
 		17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125842ADC57CC000D67BC /* SceneDelegate.swift */; };
 		17D1258C2ADC57CD000D67BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D1258B2ADC57CD000D67BC /* Assets.xcassets */; };
 		17D1258F2ADC57CD000D67BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D1258D2ADC57CD000D67BC /* LaunchScreen.storyboard */; };
-		17D1259A2ADC57CD000D67BC /* SwipeCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */; };
+		17D1259A2ADC57CD000D67BC /* SWCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125992ADC57CD000D67BC /* SWCalendarTests.swift */; };
 		17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B22ADC5824000D67BC /* SampleViewController.swift */; };
 		17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */; };
 		17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B62ADC5CA9000D67BC /* SWCalendar.swift */; };
@@ -36,7 +36,7 @@
 		17D1258E2ADC57CD000D67BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D125902ADC57CD000D67BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17D125952ADC57CD000D67BC /* SwipeCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCalendarTests.swift; sourceTree = "<group>"; };
+		17D125992ADC57CD000D67BC /* SWCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarTests.swift; sourceTree = "<group>"; };
 		17D125B22ADC5824000D67BC /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarView.swift; sourceTree = "<group>"; };
 		17D125B62ADC5CA9000D67BC /* SWCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendar.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		17D125982ADC57CD000D67BC /* SwipeCalendarTests */ = {
 			isa = PBXGroup;
 			children = (
-				17D125992ADC57CD000D67BC /* SwipeCalendarTests.swift */,
+				17D125992ADC57CD000D67BC /* SWCalendarTests.swift */,
 			);
 			path = SwipeCalendarTests;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D1259A2ADC57CD000D67BC /* SwipeCalendarTests.swift in Sources */,
+				17D1259A2ADC57CD000D67BC /* SWCalendarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
