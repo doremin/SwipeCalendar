@@ -35,4 +35,12 @@ class SWCalendar {
     
     return daysOfWeek
   }
+  
+  func generateDaysOfMonth(date: Date) -> [SWDay] {
+    return []
+  }
+  
+  func firstDayOfMonth(date: Date) -> Date {
+    return Date()
+  }
 }
