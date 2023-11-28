@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1759F0852B13DCD80083E337 /* SWDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F0842B13DCD80083E337 /* SWDayTests.swift */; };
 		17D125832ADC57CC000D67BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125822ADC57CC000D67BC /* AppDelegate.swift */; };
 		17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125842ADC57CC000D67BC /* SceneDelegate.swift */; };
 		17D1258C2ADC57CD000D67BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D1258B2ADC57CD000D67BC /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1759F0842B13DCD80083E337 /* SWDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWDayTests.swift; sourceTree = "<group>"; };
 		17D1257F2ADC57CC000D67BC /* SwipeCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D125822ADC57CC000D67BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D125842ADC57CC000D67BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				17D125992ADC57CD000D67BC /* SWCalendarTests.swift */,
+				1759F0842B13DCD80083E337 /* SWDayTests.swift */,
 			);
 			path = SwipeCalendarTests;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1759F0852B13DCD80083E337 /* SWDayTests.swift in Sources */,
 				17D1259A2ADC57CD000D67BC /* SWCalendarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
