@@ -17,6 +17,9 @@
 		17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */; };
 		17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B62ADC5CA9000D67BC /* SWCalendar.swift */; };
 		17D125B92AF02664000D67BC /* SWDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D125B82AF02664000D67BC /* SWDay.swift */; };
+		17F0EA252B17D023004E08F6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17F0EA242B17D023004E08F6 /* SnapKit */; };
+		17F0EA272B17DCD7004E08F6 /* SWCalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0EA262B17DCD7004E08F6 /* SWCalendarCollectionViewCell.swift */; };
+		17F0EA292B17E570004E08F6 /* SWCalendarScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0EA282B17E570004E08F6 /* SWCalendarScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 		17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarView.swift; sourceTree = "<group>"; };
 		17D125B62ADC5CA9000D67BC /* SWCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendar.swift; sourceTree = "<group>"; };
 		17D125B82AF02664000D67BC /* SWDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWDay.swift; sourceTree = "<group>"; };
+		17F0EA262B17DCD7004E08F6 /* SWCalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		17F0EA282B17E570004E08F6 /* SWCalendarScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCalendarScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F0EA252B17D023004E08F6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +96,9 @@
 				17D1258D2ADC57CD000D67BC /* LaunchScreen.storyboard */,
 				17D125902ADC57CD000D67BC /* Info.plist */,
 				17D125B22ADC5824000D67BC /* SampleViewController.swift */,
+				17F0EA282B17E570004E08F6 /* SWCalendarScrollView.swift */,
 				17D125B42ADC5B9C000D67BC /* SWCalendarView.swift */,
+				17F0EA262B17DCD7004E08F6 /* SWCalendarCollectionViewCell.swift */,
 				17D125B62ADC5CA9000D67BC /* SWCalendar.swift */,
 				17D125B82AF02664000D67BC /* SWDay.swift */,
 			);
@@ -122,6 +130,9 @@
 			dependencies = (
 			);
 			name = SwipeCalendar;
+			packageProductDependencies = (
+				17F0EA242B17D023004E08F6 /* SnapKit */,
+			);
 			productName = SwipeCalendar;
 			productReference = 17D1257F2ADC57CC000D67BC /* SwipeCalendar.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 17D125762ADC57CC000D67BC;
+			packageReferences = (
+				17F0EA232B17D023004E08F6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 17D125802ADC57CC000D67BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -209,9 +223,11 @@
 				17D125832ADC57CC000D67BC /* AppDelegate.swift in Sources */,
 				17D125852ADC57CC000D67BC /* SceneDelegate.swift in Sources */,
 				17D125B52ADC5B9C000D67BC /* SWCalendarView.swift in Sources */,
+				17F0EA292B17E570004E08F6 /* SWCalendarScrollView.swift in Sources */,
 				17D125B32ADC5824000D67BC /* SampleViewController.swift in Sources */,
 				17D125B92AF02664000D67BC /* SWDay.swift in Sources */,
 				17D125B72ADC5CA9000D67BC /* SWCalendar.swift in Sources */,
+				17F0EA272B17DCD7004E08F6 /* SWCalendarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +503,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17F0EA232B17D023004E08F6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17F0EA242B17D023004E08F6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17F0EA232B17D023004E08F6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17D125772ADC57CC000D67BC /* Project object */;
 }

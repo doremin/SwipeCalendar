@@ -114,4 +114,12 @@ class SWCalendar {
     
     return SWDay(year: year, month: month, day: lastDay)
   }
+  
+  func date(byAdding: Foundation.Calendar.Component, value: Int, to: Foundation.Date) throws -> Date {
+    guard let date = calendar.date(byAdding: byAdding, value: value, to: to) else {
+      throw SWError.invalidDate
+    }
+    
+    return date
+  }
 }
