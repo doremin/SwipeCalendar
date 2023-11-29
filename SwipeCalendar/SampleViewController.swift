@@ -8,8 +8,8 @@
 import UIKit
 
 final class SampleViewController: UIViewController {
-    override func loadView() {
-        self.view = SWCalendarView()
-        super.loadView()
-    }
+  override func loadView() {
+    self.view = SWCalendarView()
+    super.loadView()
+  }
 }
