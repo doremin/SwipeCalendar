@@ -9,3 +9,6 @@
 * refactor: 코드 리팩토링
 * rename: 파일 이름 수정
 * remove: 파일 삭제
+
+## Style Guide
+* [Airbnb Swift Style Guide](https://github.com/airbnb/swift)
