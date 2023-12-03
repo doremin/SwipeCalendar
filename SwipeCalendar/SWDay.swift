@@ -29,6 +29,13 @@ struct SWDay {
     self.month = calendar.component(.month, from: from)
     self.day = calendar.component(.day, from: from)
   }
+  
+  var date: Date {
+    let calendar = Calendar.current
+    let dateComponents = DateComponents(year: year, month: month, day: day)
+    
+    return calendar.date(from: dateComponents)!
+  }
 }
 
 extension SWDay: Equatable {
