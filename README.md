@@ -1,5 +1,7 @@
 # SwipeCalendar
 
+![](resources/capture.gif)
+
 ## Commit Message Convention
 * feat: 기능 추가
 * fix: 버그 수정
