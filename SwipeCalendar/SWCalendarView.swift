@@ -48,6 +48,7 @@ class SWCalendarView: UIView {
   
   private func config() {
     self.translatesAutoresizingMaskIntoConstraints = false
+    self.collectionView.backgroundColor = .white
     collectionView.delegate = self
     collectionView.dataSource = self
     collectionView.register(SWCalendarCollectionViewCell.self, forCellWithReuseIdentifier: SWCalendarCollectionViewCell.reuseIdentifier)

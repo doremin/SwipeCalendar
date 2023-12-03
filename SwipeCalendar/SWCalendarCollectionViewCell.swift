@@ -37,6 +37,7 @@ class SWCalendarCollectionViewCell: UICollectionViewCell {
   }
   
   private func setup() {
+    self.contentView.backgroundColor = .white
     self.contentView.addSubview(self.titleLabel)
     
     self.titleLabel.snp.makeConstraints { make in
