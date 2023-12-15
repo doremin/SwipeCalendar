@@ -106,6 +106,22 @@ class SWCalendarScrollView: UIScrollView {
     
     setContentOffset(CGPoint(x: width, y: 0), animated: false)
   }
+  
+  private func setupAccessibility() {
+    var elements: [Any] = []
+    
+    let group1 = UIAccessibilityElement(accessibilityContainer: self)
+    group1.accessibilityLabel = "\(calendarViews[1].label.text ?? "")"
+    group1.accessibilityFrame = calendarViews[1].label.frame
+    
+    let group2 = UIAccessibilityElement(accessibilityContainer: self)
+    group2.accessibilityLabel = "달력"
+    
+    elements.append(group1)
+    elements.append(group2)
+    
+    accessibilityElements = elements
+  }
 }
 
 extension SWCalendarScrollView: UIScrollViewDelegate {
@@ -135,7 +151,10 @@ extension SWCalendarScrollView: UIScrollViewDelegate {
     }
     
     calendarViews
-      .forEach { $0.collectionView.reloadData() }
+      .forEach {
+        $0.collectionView.reloadData()
+        $0.label.text = "\($0.days[13].year)년 \($0.currentMonth)월"
+      }
     setContentOffset(CGPoint(x: width, y: 0), animated: false)
     
     scrollView.isScrollEnabled = true

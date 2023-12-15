@@ -22,6 +22,7 @@ class SWCalendarCollectionViewCell: UICollectionViewCell {
   let titleLabel: UILabel = {
     let label = UILabel()
     label.font = .systemFont(ofSize: 16)
+    label.isAccessibilityElement = false
     
     return label
   }()
@@ -50,5 +51,7 @@ class SWCalendarCollectionViewCell: UICollectionViewCell {
     self.title = title
     
     self.titleLabel.textColor = current == monthOfDay ? .black : .gray
+    self.isAccessibilityElement = true
+    self.accessibilityLabel = title
   }
 }

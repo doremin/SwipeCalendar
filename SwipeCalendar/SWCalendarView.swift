@@ -22,18 +22,12 @@ class SWCalendarView: UIView {
   }()
   
   // MARK: Properties
-  private var currentMonth: Int {
+  var currentMonth: Int {
     return days[13].month
   }
   
   // MARK: States
-  var days: [SWDay] {
-    didSet {
-      DispatchQueue.main.async {
-        self.label.text = "\(self.days[13].year) \(self.currentMonth)월"
-      }
-    }
-  }
+  var days: [SWDay]
   
   // MARK: Initiallizer
   init(days: [SWDay]) {
@@ -48,6 +42,7 @@ class SWCalendarView: UIView {
   
   private func config() {
     self.translatesAutoresizingMaskIntoConstraints = false
+    self.isAccessibilityElement = false
     self.collectionView.backgroundColor = .white
     collectionView.delegate = self
     collectionView.dataSource = self
