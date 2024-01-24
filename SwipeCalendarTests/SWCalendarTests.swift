@@ -19,8 +19,10 @@ final class SWCalendarTests: XCTestCase {
   
   // MARK: generateDaysOfWeek
   func testCalendar_whenGenerateDaysOfWeek_generateWith231031() {
-    // when
+    // given
     let targetDate = try! calendar.date(from: "2023-10-31T00:00:00+09:00")
+    
+    // when
     let result = calendar.generateDaysOfWeek(date: targetDate)
     
     // then
@@ -38,8 +40,10 @@ final class SWCalendarTests: XCTestCase {
   }
   
   func testCalendar_whenGenerateDaysOfWeek_generateWith230901() {
-    // when
+    // given
     let targetDate = try! calendar.date(from: "2023-09-01T00:00:00+09:00")
+    
+    // when
     let result = calendar.generateDaysOfWeek(date: targetDate)
     
     // then
@@ -57,8 +61,10 @@ final class SWCalendarTests: XCTestCase {
   }
   
   func testCalendar_whenGenerateDaysOfWeek_generateWith231231() {
-    // when
+    // given
     let targetDate = try! calendar.date(from: "2023-12-31T00:00:00+09:00")
+    
+    // when
     let result = calendar.generateDaysOfWeek(date: targetDate)
     
     // then
@@ -77,8 +83,10 @@ final class SWCalendarTests: XCTestCase {
   
   // MARK: firstDayOfMonth
   func testCalendar_whenFirstDayOfMonth_with231010() {
-    // when
+    // given
     let targetDate = try! calendar.date(from: "2023-10-10T00:00:00+09:00")
+    
+    // when
     let result = calendar.firstDayOfMonth(date: targetDate)
     
     // then
@@ -89,8 +97,10 @@ final class SWCalendarTests: XCTestCase {
   
   // MARK: lastDayOfMonth
   func testCalendar_whenLastDayOfMonth_with231010() {
-    // when
+    // given
     let targetDate = try! calendar.date(from: "2023-10-10T00:00:00+09:00")
+    
+    // when
     let result = try! calendar.lastDayOfMonth(date: targetDate)
     
     // then
@@ -101,13 +111,14 @@ final class SWCalendarTests: XCTestCase {
   
   // MARK: generateDaysOfMonth
   func testCalendar_whenGenerateDaysOfMonth_with231001() {
-    // when
+    // given
     let targetDate1 = try! calendar.date(from: "2023-10-01T00:00:00+09:00")
     let targetDate2 = try! calendar.date(from: "2023-10-09T00:00:00+09:00")
     let targetDate3 = try! calendar.date(from: "2023-10-17T00:00:00+09:00")
     let targetDate4 = try! calendar.date(from: "2023-10-25T00:00:00+09:00")
     let targetDate5 = try! calendar.date(from: "2023-10-31T00:00:00+09:00")
     
+    // when
     let result1 = calendar.generateDaysOfMonth(date: targetDate1)
     let result2 = calendar.generateDaysOfMonth(date: targetDate2)
     let result3 = calendar.generateDaysOfMonth(date: targetDate3)
@@ -127,10 +138,11 @@ final class SWCalendarTests: XCTestCase {
   
   // MARK: firstDateOfMonth
   func testCalendar_whenFirstDateOfMonth_with231001() {
-    // when
+    // given
     let targetDate1 = try! calendar.date(from: "2023-10-01T00:00:00+09:00")
     let targetDate2 = try! calendar.date(from: "2023-10-31T00:00:00+09:00")
     
+    // when
     let result1 = SWDay(from: calendar.firstDateOfMonth(date: targetDate1)!)
     let result2 = SWDay(from: calendar.firstDateOfMonth(date: targetDate2)!)
     

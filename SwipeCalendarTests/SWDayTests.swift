@@ -12,7 +12,7 @@ import XCTest
 final class SWDayTests: XCTestCase {
 
   func testSWDay_whenLHSBigger() {
-    // when
+    // given
     let lhs = SWDay(year: 2023, month: 10, day: 13)
     let rhs = SWDay(year: 2023, month: 9, day: 30)
     
@@ -21,11 +21,20 @@ final class SWDayTests: XCTestCase {
   }
   
   func testSWDay_whenRHSBigger() {
-    // when
+    // given
     let lhs = SWDay(year: 2023, month: 10, day: 31)
     let rhs = SWDay(year: 2023, month: 11, day: 4)
     
     // then
     XCTAssertTrue(lhs < rhs)
+  }
+  
+  func testSWDay_whenEqual() {
+    // given
+    let lhs = SWDay(year: 2024, month: 1, day: 1)
+    let rhs = SWDay(year: 2024, month: 1, day: 1)
+    
+    // then
+    XCTAssertTrue(lhs == rhs)
   }
 }
