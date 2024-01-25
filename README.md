@@ -14,3 +14,6 @@
 
 ## Style Guide
 * [Airbnb Swift Style Guide](https://github.com/airbnb/swift)
+
+## Test Code Style
+* TDD with given-when-then pattern
