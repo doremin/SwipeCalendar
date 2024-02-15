@@ -1,5 +1,7 @@
 # SwipeCalendar
 
+ScrollView를 이용해서 무한스크롤 달력을 구현한 앱입니다.
+
 ![](resources/capture.gif)
 
 ## Commit Message Convention
